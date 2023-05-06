@@ -25,5 +25,5 @@ async function sequence() {
 }
 
 sequence().then(console.log)
-// parallel().then(console.log)
-// race().then(console.log)
+parallel().then(console.log)
+race().then(console.log)
